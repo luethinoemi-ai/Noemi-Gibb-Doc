@@ -1,6 +1,6 @@
 sphinx==6.2.1
 
-shibuya
+shibuya==2025.5.30
 myst-parser
 
 sphinx-copybutton
