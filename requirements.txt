@@ -6,6 +6,6 @@ myst-parser
 sphinx-copybutton
 sphinx-design
 sphinx-tabs
+sphinx-togglebutton
 
 sphinxcontrib-mermaid
-

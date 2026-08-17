@@ -12,7 +12,7 @@ Welcome to my personal documentation.
    :maxdepth: 2
    :caption: Navigation
 
-   Semester-03/index
-   Module/index
+   docs/Semester-03/index
+   docs/Module/index
 
 

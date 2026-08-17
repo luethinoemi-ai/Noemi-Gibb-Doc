@@ -27,7 +27,7 @@ extensions = [
 
 todo_include_todos = True
 
-templates_path = ['_templates']
+templates_path = ['docs/_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
@@ -36,9 +36,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_theme = "shibuya"
 
-html_favicon = "_static/n.logo.png"
+html_favicon = "docs/_static/n.logo.png"
 
-html_static_path = ['_static']
+html_static_path = ['docs/_static']
 
 html_context = {
     "source_type": "github",
