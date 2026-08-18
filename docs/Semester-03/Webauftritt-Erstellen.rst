@@ -1,4 +1,0 @@
-Webauftritt Erstellen
-=====================
-
-Meine Notizen.

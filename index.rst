@@ -13,6 +13,5 @@ Welcome to my personal documentation.
    :caption: Navigation
 
    docs/Semester-03/index
-   docs/Module/index
 
 
