@@ -33,6 +33,15 @@ Dabei gilt:
 Aufbau einer URL
 ----------------
 
+.. important::
+
+   URL steht für:
+
+   Uniform Resource Locator
+
+   Eine URL ist die Adresse einer Ressource im Internet.
+
+
 Eine URL dient dazu, eine Ressource eindeutig zu kennzeichnen und zu adressieren.
 
 Beispiel:
@@ -68,13 +77,7 @@ Nach dem Protokoll folgt:
 Domäne
 ~~~~~~
 
-Die Domäne bestimmt, welcher Server angefragt wird.
-
-Fachbegriffe:
-
-- First-Level-Domain
-- Second-Level-Domain
-- Sub-Domain
+Die Domäne ist der Name einer Website.
 
 Beispiel:
 
@@ -82,11 +85,36 @@ Beispiel:
 
    www.beispiel.ch
 
-Der DNS-Server wandelt die Domäne anschliessend in eine IP-Adresse um.
+Menschen verwenden Domänen, da sie einfacher zu merken sind als IP-Adressen.
+
+Bevor eine Verbindung hergestellt werden kann, übersetzt ein DNS-Server die Domäne in eine IP-Adresse.
+
+Beispiel:
+
+.. code-block:: text
+
+   www.beispiel.ch
+   ↓
+   192.168.1.1
+
+Fachbegriffe:
+
+- First-Level-Domain
+- Second-Level-Domain
+- Sub-Domain
 
 .. note::
 
-   Für die Prüfung solltest du die Begriffe First-Level-Domain, Second-Level-Domain und Sub-Domain kennen.
+   Computer kommunizieren über IP-Adressen. Der DNS-Server sorgt dafür, dass der Name einer Website in die passende IP-Adresse übersetzt wird.
+
+.. important::
+
+   Domäne = Name einer Website
+
+   DNS = Übersetzer
+
+   IP-Adresse = Adresse des Servers
+
 
 Port
 ~~~~
@@ -369,3 +397,28 @@ Zusammenfassung
 - Die wichtigsten Statuscodes sind 200, 404 und 500.
 - Die wichtigsten Methoden sind GET und POST.
 - HTTP basiert auf einem Client-Server-Modell.
+
+
+Prüfungswissen
+--------------
+
+.. dropdown:: Wofür steht URL?
+
+   Uniform Resource Locator
+
+.. dropdown:: Aus welchen Bestandteilen besteht eine URL?
+
+   - Schema
+   - Domäne
+   - Port
+   - Pfad
+   - Argumente
+   - Anker
+
+.. dropdown:: Welcher Standard-Port wird für HTTP verwendet?
+
+   80
+
+.. dropdown:: Welcher Standard-Port wird für HTTPS verwendet?
+   443
+

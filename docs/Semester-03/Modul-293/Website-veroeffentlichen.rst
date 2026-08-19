@@ -273,6 +273,36 @@ Für die Lehrperson sollen zusätzlich dokumentiert werden:
 
 Damit die Webseite überprüft werden kann.
 
+
+Domain
+~~~~~~
+
+Name einer Website.
+
+Beispiel:
+
+.. code-block:: text
+
+   google.ch
+
+Webspace
+~~~~~~~~
+
+Speicherplatz auf einem Webserver.
+
+Dort werden die Dateien einer Website gespeichert.
+
+.htaccess
+~~~~~~~~~
+
+Datei für Regeln und Konfigurationen eines Verzeichnisses.
+
+.htpasswd
+~~~~~~~~~
+
+Datei mit verschlüsselten Passwörtern.
+
+
 Prüfungswissen
 --------------
 

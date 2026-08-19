@@ -1,8 +1,5 @@
-CSS
-====
-
 Lernziele
-~~~~~~~~~~~
+---------
 
 .. important::
 
@@ -15,7 +12,7 @@ Lernziele
 
 
 Was ist CSS?
-~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 CSS wird verwendet, um Webseiten zu gestalten.
 
@@ -29,7 +26,7 @@ Während HTML den Inhalt und die Struktur definiert, bestimmt CSS das Aussehen.
 
 
 Warum CSS?
-~~~~~~~~~~~~
+~~~~~~~~~~
 
 Eine Webseite kann mit verschiedenen Stylesheets völlig unterschiedlich aussehen.
 
@@ -39,7 +36,7 @@ Eine Webseite kann mit verschiedenen Stylesheets völlig unterschiedlich aussehe
 
 
 HTML und CSS
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 .. code-block:: text
 
@@ -61,7 +58,7 @@ HTML und CSS
 
 
 CSS einbinden
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 Ein Stylesheet wird im Header einer HTML-Datei eingebunden.
 
@@ -71,7 +68,7 @@ Ein Stylesheet wird im Header einer HTML-Datei eingebunden.
 
 
 CSS-Datei
-~~~~~~~~~~~~
+~~~~~~~~
 
 Die Formatierungen werden in einer separaten Datei gespeichert.
 
@@ -80,11 +77,11 @@ Beispiel:
 .. code-block:: text
 
    main.css
-
+`
 
 
 CSS Syntax
-~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 Ein CSS-Eintrag besteht aus:
 
@@ -102,7 +99,7 @@ Beispiel:
 
 
 Selektoren
-~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 Selektoren bestimmen, auf welche Elemente ein Stil angewendet wird.
 
@@ -117,7 +114,7 @@ Beispiele:
 
 
 Layout einer Webseite
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 Im Smartlearn-Beispiel wird die Webseite in verschiedene Bereiche aufgeteilt:
 
@@ -131,29 +128,19 @@ Im Smartlearn-Beispiel wird die Webseite in verschiedene Bereiche aufgeteilt:
 
 
 Width
-~~~~~
-
-Legt die Breite eines Elements fest.
-
-Beispiel:
-
-.. code-block:: css
-
-   width: 300px;
-
-Height
 ~~~~~~
 
-Legt die Höhe eines Elements fest.
+Die Eigenschaft width definiert die Breite eines Elements.
 
 Beispiel:
 
 .. code-block:: css
 
-   height: 150px;
+   width: 800px;
+
 
 Margin
-~~~~~~~~~
+~~~~~
 
 Margin beschreibt den Aussenabstand eines Elements.
 
@@ -165,7 +152,7 @@ Beispiel:
 
 
 Padding
-~~~~~~~~~~~
+~~~~~~
 
 Padding beschreibt den Innenabstand eines Elements.
 
@@ -177,9 +164,7 @@ Beispiel:
 
 
 Margin und Padding
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. important::
+------.. important::
 
    Margin = Abstand ausserhalb
 
@@ -187,7 +172,7 @@ Margin und Padding
 
 
 Box Model
-~~~~~~~~~~~
+---------
 
 Das Box Model beschreibt den Aufbau eines HTML-Elements.
 
@@ -203,10 +188,11 @@ Das Box Model beschreibt den Aufbau eines HTML-Elements.
    |  | +-----------+  |  |
    |  +----------------+  |
    +----------------------+
+``
 
 
 Height
-~~~~~~~~~
+------
 
 Height definiert die Höhe eines Elements.
 
@@ -216,7 +202,7 @@ Height definiert die Höhe eines Elements.
 
 
 Background
-~~~~~~~~~~~~~
+----------
 
 Mit Background wird der Hintergrund eines Elements definiert.
 
@@ -228,7 +214,7 @@ Beispiel:
 
 
 Textformatierung
-~~~~~~~~~~~~~~~~~~
+----------------
 
 Wichtige Eigenschaften:
 
@@ -238,7 +224,7 @@ Wichtige Eigenschaften:
 
 
 Display
-~~~~~~~~
+-------
 
 Display bestimmt, wie ein Element dargestellt wird.
 
@@ -251,7 +237,7 @@ Display bestimmt, wie ein Element dargestellt wird.
 
 
 Weitere CSS-Themen
-~~~~~~~~~~~~~~~~~~~
+------------------
 
 Folgende Themen werden zusätzlich erwähnt:
 
@@ -272,7 +258,7 @@ Folgende Themen werden zusätzlich erwähnt:
 
 
 Prüfungswissen
-~~~~~~~~~~~~~~~
+--------------
 
 .. dropdown:: Was macht margin: 10px?
 
@@ -308,7 +294,7 @@ Prüfungswissen
 
 
 Zusammenfassung
-~~~~~~~~~~~~~~~~
+---------------
 
 .. important::
 
@@ -329,9 +315,8 @@ Zusammenfassung
 
    Für Prüfungen besonders wichtig:
 
-   - Width
-   - Height
    - Margin
    - Padding
    - Box Model
+   - Width
    - Display

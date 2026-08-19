@@ -181,6 +181,14 @@ Sortierte Liste:
       <li>Schritt 2</li>
    </ol>
 
+.. important::
+
+   <ul> = ungeordnete Liste
+
+   <ol> = geordnete Liste
+
+   <li> = Listeneintrag
+
 
 Div
 ---
