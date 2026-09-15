@@ -14,4 +14,5 @@ Modul 293 - Webauftritt erstellen
    JavaScript
    Website-veroeffentlichen
    Ressourcen
+   UX-Webdesign
    Pruefungsvorbereitung

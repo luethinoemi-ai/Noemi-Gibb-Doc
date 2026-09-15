@@ -130,6 +130,16 @@ Im Smartlearn-Beispiel wird die Webseite in verschiedene Bereiche aufgeteilt:
    Footer
 
 
+fr-Einheit
+^^^^^^^^^^
+
+Die Einheit ``fr`` verteilt den verfügbaren Platz.
+
+.. code-block:: css
+
+   grid-template-columns: 1fr 2fr 1fr;
+
+
 Width
 ~~~~~
 
@@ -249,26 +259,165 @@ Display bestimmt, wie ein Element dargestellt wird.
    display: flex;
    display: grid;
 
-
-Weitere CSS-Themen
+Responsive Design
 ~~~~~~~~~~~~~~~~~~~
 
-Folgende Themen werden zusätzlich erwähnt:
+Responsive Design bedeutet, dass sich eine Webseite automatisch an verschiedene Bildschirmgrössen anpasst.
 
-- Text
-- Fonts
-- Links
-- Listen
-- Tabellen
-- Border
-- Outline
-- Display
-- Positioning
-- Navigation Bar
-- Image Gallery
-- Image Transparency
-- Image Sprites
-- Attribute Selectors
+Vorteile:
+
+* Smartphone
+* Tablet
+* Laptop
+* Desktop
+
+
+Viewport Meta Tag
+~~~~~~~~~~~~~~~~~~
+
+Damit Webseiten auf mobilen Geräten korrekt dargestellt werden, wird folgender Meta-Tag verwendet:
+
+.. code-block:: html
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Dieser Tag gehört in den ``<head>`` Bereich einer HTML-Datei.
+
+
+Media Queries
+~~~~~~~~~~~~~~~
+
+Mit Media Queries können verschiedene CSS-Regeln für unterschiedliche Bildschirmgrössen definiert werden.
+
+.. code-block:: css
+
+   @media (max-width: 768px) {
+      body {
+         background-color: lightgray;
+      }
+   }
+
+
+Flexbox
+~~~~~~~~
+
+Flexbox wird verwendet, um Elemente flexibel anzuordnen.
+
+.. code-block:: css
+
+   .container {
+      display: flex;
+   }
+
+Wichtige Eigenschaften:
+
+* justify-content
+* align-items
+* flex-direction
+
+
+
+CSS Grid
+~~~~~~~~~
+
+CSS Grid ermöglicht zweidimensionale Layouts.
+
+.. code-block:: css
+
+   .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+   }
+
+
+Float
+~~~~~~
+
+Mit float können Elemente links oder rechts positioniert werden.
+
+.. code-block:: css
+
+   img {
+      float: left;
+   }
+
+Heute wird Float häufig durch Flexbox oder Grid ersetzt.
+
+
+
+height: 100% vs 100vh
+~~~~~~~~~~~~~~~~~~~~~~~
+
+100%
+-----
+
+Bezieht sich auf das Elternelement.
+
+100vh
+------
+
+Bezieht sich auf die gesamte sichtbare Höhe des Browserfensters.
+
+
+
+z-index
+~~~~~~~~
+
+Mit z-index wird bestimmt, welches Element im Vordergrund angezeigt wird.
+
+.. code-block:: css
+
+   .overlay {
+      position: absolute;
+      z-index: 999;
+   }
+
+
+Position
+~~~~~~~~
+
+Mit ``position`` können Elemente gezielt platziert werden.
+
+Mögliche Werte:
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
+
+.. code-block:: css
+
+   .box {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+   }
+
+
+
+Border
+~~~~~~
+
+Border definiert einen Rahmen um ein Element.
+
+.. code-block:: css
+
+   border: 2px solid black;
+
+Farben
+~~~~~~
+
+Farben können als Name, HEX-Wert oder RGB-Wert definiert werden.
+
+.. code-block:: css
+
+   color: red;
+
+   color: #ff0000;
+
+   color: rgb(255,0,0);
 
 
 Prüfungswissen
@@ -305,6 +454,14 @@ Prüfungswissen
 .. dropdown:: Wofür wird display: grid verwendet?
 
    Für Rasterlayouts mit Zeilen und Spalten.
+
+.. dropdown:: Unterschied zwischen Flexbox und Grid?
+
+   Flexbox arbeitet in einer Dimension
+   (Zeile oder Spalte).
+
+   Grid arbeitet in zwei Dimensionen
+   (Zeilen und Spalten).
 
 
 Zusammenfassung
