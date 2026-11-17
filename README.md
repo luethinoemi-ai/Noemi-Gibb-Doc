@@ -1,98 +1,62 @@
-# Noemi-Gibb-Doc
+# Noemi GIBB Doc
 
-A personal documentation project built with Sphinx.
+Personal documentation created during my apprenticeship as an application developer.
 
-## Overview
+It contains school notes and learning material, organized by module and semester. The content is written with Sphinx and the Shibuya theme.
 
-This repository contains school notes, learning material, and personal documentation created during my apprenticeship as a software developer.
+**Read online:** https://luethinoemi-ai.github.io/Noemi-Gibb-Doc/
 
-The project is built with Sphinx and automatically deployed to GitHub Pages using GitHub Actions.
+## Contents
 
-## Documentation
-
-Website:
-
-https://luethinoemi-ai.github.io/Noemi-Gibb-Doc/
-
-Repository:
-
-https://github.com/luethinoemi-ai/Noemi-Gibb-Doc
+- **Module:** notes and summaries for each school module
+- **Semester 3:** material from the current semester
 
 ## Features
 
-- Shibuya theme
-- Dark mode support
+- Shibuya theme with dark mode
 - GitHub integration
+- Markdown support (MyST)
 - Mermaid diagrams
-- Markdown support
 - Copy button for code blocks
-- GitHub Actions deployment
-- GitHub Pages hosting
+- Automatic deployment to GitHub Pages
 
-## Extensions
+Extensions: myst-parser, sphinx-copybutton, sphinx-design, sphinx-tabs, sphinx-togglebutton, sphinxcontrib-mermaid, sphinx.ext.todo
 
-- myst-parser
-- sphinx-copybutton
-- sphinx-design
-- sphinx-tabs
-- sphinx-togglebutton
-- sphinxcontrib-mermaid
-- sphinx.ext.todo
+## Build locally
 
-## Project Structure
-
-```text
-Noemi-Gibb-Doc
-├── .github/
-│   └── workflows/
-├── docs/
-│   ├── Module/
-│   ├── Semester-03/
-│   ├── _static/
-│   └── _templates/
-├── README.md
-├── requirements.txt
-├── conf.py
-├── index.rst
-├── Makefile
-└── make.bat
-```
-
-## Installation
-
-Clone the repository:
+You only need this if you want to work on the docs yourself.
 
 ```bash
 git clone https://github.com/luethinoemi-ai/Noemi-Gibb-Doc.git
 cd Noemi-Gibb-Doc
-```
-
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-## Build Documentation
-
-Build the documentation locally:
-
-```bash
 make html
 ```
 
-Open:
+The result is in `_build/html/index.html`.
+
+## Project structure
 
 ```text
-_build/html/index.html
+Noemi-Gibb-Doc/
+├── .github/workflows/   deployment to GitHub Pages
+├── docs/
+│   ├── Module/          notes per module
+│   ├── Semester-03/     material from semester 3
+│   ├── _static/
+│   └── _templates/
+├── conf.py              Sphinx configuration
+├── index.rst            start page
+├── requirements.txt
+├── Makefile
+└── README.md
 ```
 
 ## Deployment
 
-The documentation is automatically built and published through GitHub Actions whenever changes are pushed to the repository.
+The website is built and published automatically with GitHub Actions on every push.
 
 ## Author
 
-Noemi Lüthi
-
-Software Development Apprentice
+Noemi, application development apprentice.
+GitHub: [@luethinoemi-ai](https://github.com/luethinoemi-ai)
